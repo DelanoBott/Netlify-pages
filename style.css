@@ -1,0 +1,52 @@
+body{
+    font-family: arial;
+    font-size: 28px;
+}
+
+header{
+    color: darkslategrey;
+}
+
+#green-background{
+    list-style-type: none;
+    display: flex;
+}
+
+#green-background li{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+#list-header{
+    font-style: italic;
+    text-align: center;
+}
+
+main{
+    border: 1px solid black;
+}
+
+@media (min-width: 1024px){
+    body{
+        font-size: 18px;
+        background-color: lightblue;
+        color: red;
+        line-height: 1.5rem;
+    }
+
+    #list-header{
+        text-align: left;
+    }
+
+    a{
+        color: red;
+    }
+
+    header{
+        color: red;
+    }
+}
